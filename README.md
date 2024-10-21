@@ -1,2 +1,4 @@
 # sykkelkalkulator
-Ein måte å rekne ut kva 
+Eit forsøk på å rekne ut kva ein (el)sykkel kostar.
+
+https://tanketom.github.io/sykkelkalkulator/
