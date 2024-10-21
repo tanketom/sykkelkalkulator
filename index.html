@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Så mykje kostar sykkelen min meg</title>
+</head>
+<body>
+    <h1>Så mykje kostar sykkelen min meg</h1>
+    <form id="costForm">
+        <label for="purchasePrice">Pris da kjøpt (kr):</label>
+        <input type="number" id="purchasePrice" name="purchasePrice" required><br><br>
+
+        <label for="purchaseDate">Tidspunkt kjøpt:</label>
+        <input type="month" id="purchaseDate" name="purchaseDate" required><br><br>
+
+        <label for="kilometers">Kilometer sykla:</label>
+        <input type="number" id="kilometers" name="kilometers" required><br><br>
+
+        <label for="serviceCost">Kostnad service og deler (kr):</label>
+        <input type="number" id="serviceCost" name="serviceCost" required><br><br>
+
+        <button type="button" onclick="calculateCosts()">Rekn ut</button>
+    </form>
+
+    <h2>Resultat</h2>
+    <p id="costPerYear">Kostnad per år: </p>
+    <p id="costPerKm">Kostnad per kilometer: </p>
+    <p id="carCost">Kostnad for bil: </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
